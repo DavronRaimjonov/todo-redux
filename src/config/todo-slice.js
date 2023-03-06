@@ -19,7 +19,7 @@ const todoSlice = createSlice({
     },
     editList: (state, action) => {
       state.list = state.list.map((item) =>
-        item.id == action.payload.id ? action.payload : { ...state.list }
+        item.id == action.payload.id ? action.payload : { ...item }
       );
     },
   },

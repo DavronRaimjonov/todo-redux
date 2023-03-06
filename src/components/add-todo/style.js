@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const TodoSection = styled.section`
-  .todo_title {
+ .todo_title {
     display: flex;
     align-items: center;
     margin-top: 45px;
